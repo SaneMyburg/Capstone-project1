@@ -101,7 +101,14 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 25px;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .breakline {
+    color: #ec5242;
+    width: 20%;
+    margin: 15px 40% 25px 40%;
+    border: 1px solid #ec5242;
   }
 
   .event1 {
