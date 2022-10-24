@@ -1,3 +1,86 @@
-h1 {
-  color: aquamarine;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #d3d3d3;
+}
+
+.social-links {
+  display: flex;
+  min-height: 30px;
+  background-color: black;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.main-container h1 {
+  font-size: xxx-large;
+  color: #ec5242;
+  padding-top: 10%;
+  margin-left: 5%;
+}
+
+.para1 {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 3px solid white;
+  padding: 15px;
+  color: #272a31;
+}
+
+.para2 {
+  margin-left: 5%;
+  padding-top: 30px;
+  color: #272a31;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.para3 {
+  margin-left: 5%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+/* mobile media query */
+
+@media screen and (max-width: 768px) {
+  .social-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburger button {
+    border: none;
+    color: #272a31;
+    font-size: xx-large;
+    width: 10%;
+    font-weight: 900;
+  }
+
+  header {
+    background-image: url(./images/mobile-bg.png);
+  }
+}
+
+/* desktop media query */
