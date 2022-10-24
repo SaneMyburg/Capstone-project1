@@ -58,6 +58,15 @@ body {
   padding-bottom: 50px;
 }
 
+.events {
+  background-image: url(./images/upcoming-events-bg.jpg);
+}
+
+.event1 img {
+  width: 60px;
+  height: auto;
+}
+
 /* mobile media query */
 
 @media screen and (max-width: 768px) {
@@ -80,6 +89,50 @@ body {
 
   header {
     background-image: url(./images/mobile-bg.png);
+  }
+
+  .events {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upcoming-events {
+    color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 0px 0px 20px 0px;
+  }
+
+  .event1 {
+    display: flex;
+    margin: 0px 5px 10px 10px;
+    gap: 10px;
+  }
+
+  .event1 img {
+    width: 25%;
+  }
+
+  .event1 h4 {
+    width: 25%;
+    color: #ec5242;
+    align-self: center;
+  }
+
+  .event1 p {
+    display: flex;
+    width: 60%;
+    color: #d3d3d3;
+  }
+
+  .book-events {
+    display: flex;
+    justify-content: center;
+    color: #d3d3d3;
+    margin: 5% 35% 5% 35%;
+    background-color: #ec5242;
+    padding: 15px;
   }
 }
 
