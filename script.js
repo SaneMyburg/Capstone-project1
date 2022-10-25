@@ -1,6 +1,6 @@
 const artists = [
   {
-    artistImage: './images/AKA_Supa_Mega.png',
+    artistImage: './images/Aka.png',
     artistName: 'Aka Supa Mega',
     artistGenre: 'South African Hip Hop Artist',
     artistInfo: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
@@ -24,7 +24,7 @@ const artists = [
     artistInfo: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
   },
   {
-    artistImage: './images/NASTY-C-COLOUR-2.png',
+    artistImage: './images/Nasty-C.png',
     artistName: 'Nasty C',
     artistGenre: 'South African Hip Hop Artist',
     artistInfo: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
@@ -42,12 +42,12 @@ artists.forEach((e) => {
   const div = document.createElement('div');
   div.innerHTML += `
     <div class="artist-card">
-    <img src="${e.artistImage}">
-    <div>
-       <h3>${e.artistImage}</h3>
-       <h5>${e.artistGenre}</h5>
-       <p>${e.artistInfo}</p>
-    </div>
+      <img src="${e.artistImage}">
+      <div>
+         <h3>${e.artistName}</h3>
+         <h5>${e.artistGenre}</h5>
+         <p>${e.artistInfo}</p>
+      </div>
     </div>
     `;
   featureArtist.append(div);
