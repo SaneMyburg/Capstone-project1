@@ -155,6 +155,34 @@ body {
     background-color: #ec5242;
     padding: 15px;
   }
+
+  .featured-artists {
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .featured-artists h3 {
+    align-self: center;
+  }
+
+  .artist-card {
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    padding: 0% 3% 6% 6%;
+  }
+
+  .artist-card h5 {
+    color: #ec5242;
+  }
+
+  .artist-card img {
+    width: 20%;
+    height: auto;
+  }
 }
 
 /* desktop media query */
