@@ -75,10 +75,119 @@ body {
   height: auto;
 }
 
+/* about page */
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about-title h2 {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  color: #ec5242;
+  font-weight: 400;
+  padding: 15px;
+}
+
+.about-title h1 {
+  display: flex;
+  justify-content: center;
+  color: #ec5242;
+  padding: 15px;
+}
+
+.about-para1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+  padding: 20px;
+  line-height: 20px;
+  background-color: white;
+}
+
+.about-para2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 30px 0px 30px;
+}
+
+.para2-email {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.about-events {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px 0px 30px 0px;
+}
+
+.past-events h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 20px 0px;
+}
+
+.past-events p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0% 10%;
+  margin-bottom: 10%;
+}
+
+.partners {
+  background-color: #3f4144;
+  padding-bottom: 30px;
+}
+
+.partners h2 {
+  display: flex;
+  justify-content: center;
+  color: #d3d3d3;
+  margin-top: 20px;
+}
+
+.partners-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.about-footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+}
+
+.about-footer img {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.footerp1 {
+  margin-top: 6%;
+}
+
 /* mobile media query */
 
 @media screen and (max-width: 768px) {
   .social-links {
+    display: none;
+  }
+
+  .nav-menu {
     display: none;
   }
 
@@ -97,6 +206,10 @@ body {
   }
 
   header {
+    background-image: url(./images/mobile-bg.png);
+  }
+
+  .about-container {
     background-image: url(./images/mobile-bg.png);
   }
 
@@ -197,6 +310,19 @@ body {
   .featured-artists button img {
     margin-bottom: 1%;
   }
+
+  /* about section */
+
+  .about-events img {
+    margin: 1% 10%;
+    width: 75%;
+    height: auto;
+  }
 }
 
 /* desktop media query */
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    display: grid;
+  }
+}
