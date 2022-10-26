@@ -23,11 +23,6 @@ body {
   color: white;
 }
 
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -322,7 +317,118 @@ body {
 
 /* desktop media query */
 @media screen and (min-width: 768px) {
+  .hamburger button {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+  }
+
   .nav-menu {
-    display: grid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-list {
+    align-content: center;
+    width: 40%;
+    margin: 2%;
+    padding-left: 20px;
+  }
+
+  .about-menu {
+    display: flex;
+    list-style: none;
+    gap: 8%;
+  }
+
+  .about-menu li a {
+    text-decoration: none;
+    color: #272a31;
+    font-weight: 600;
+  }
+
+  .about-menu .book-now a {
+    color: #ec5242;
+    border: #ec5242 solid 2px;
+    padding: 8px;
+  }
+
+  .nav-menu a {
+    margin: 2% 0% 2% 0%;
+    padding: 0% 0% 0% 15%;
+  }
+
+  .about-main {
+    display: flex;
+    background-image: url(./images/desktop-bg.png);
+    padding: 6% 5%;
+  }
+
+  .about-para1 {
+    margin: 0% 25%;
+  }
+
+  .breakline {
+    color: #ec5242;
+    width: 20%;
+    margin: 15px 40% 25px 40%;
+    border: 1px solid #ec5242;
+  }
+
+  .past-events p {
+    margin-bottom: 30px;
+  }
+
+  .past-events img {
+    width: 25%;
+    padding: 0 15px 70px 0;
+  }
+
+  .img1 {
+    margin-left: 25%;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .about-footer {
+    padding: 0% 3% 1% 3%;
+    background-color: #272a31;
+  }
+
+  .about-footer img {
+    margin-left: 300px;
+  }
+
+  .footerp1 {
+    color: #d3d3d3;
+    margin: 15% 0;
+  }
+
+  .LC-logo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 0;
+    margin: 1px 0;
+  }
+
+  .LC-logo h2 {
+    margin-bottom: 20px;
+  }
+
+  .LC-logo p {
+    margin-bottom: 15px;
+  }
+
+  .LC-logo img {
+    margin-left: 40%;
   }
 }
