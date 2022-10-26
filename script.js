@@ -40,10 +40,11 @@ const artists = [
 const featureArtist = document.querySelector('.artists-list');
 artists.forEach((e) => {
   const div = document.createElement('div');
+
   div.innerHTML += `
     <div class="artist-card">
       <img src="${e.artistImage}">
-      <div>
+      <div class="artist-card-item">
          <h3>${e.artistName}</h3>
          <h5>${e.artistGenre}</h5>
          <p>${e.artistInfo}</p>
