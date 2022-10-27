@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link]
+[Live Demo Link](https://sanemyburg.github.io/Capstone-project1/)
 
 ## Getting started
 
@@ -27,6 +27,7 @@ You can clone the repo or just follow the live link.
 
 ## Contibutions
 
+The design of this, was insipired by Cindy Shin the original designer.
 All contibutions, issues and features are welcome
 
 ## License
