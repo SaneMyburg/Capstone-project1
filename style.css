@@ -86,7 +86,6 @@ body {
 .about-title h1 {
   display: flex;
   justify-content: center;
-  color: #ec5242;
   font-weight: 900;
   padding: 15px;
   font-size: 50px;
@@ -199,8 +198,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width:90%;
-  height:50vh;
+  width: 90%;
+  height: 50vh;
 }
 
 .overlay1 {
@@ -208,8 +207,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width:90%;
-  height:50vh;
+  width: 90%;
+  height: 50vh;
 }
 
 /* mobile media query */
@@ -409,7 +408,6 @@ body {
 
   .partners {
     margin-top: 3%;
-   
   }
 
   .about-footer {
@@ -423,7 +421,6 @@ body {
     justify-content: space-between;
     margin-left: 9%;
     width: 90%;
-   
   }
 
   .overlay {
