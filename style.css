@@ -408,7 +408,8 @@ body {
   /* about section */
 
   .partners {
-    display: none;
+    margin-top: 3%;
+   
   }
 
   .about-footer {
@@ -702,13 +703,6 @@ body {
 
   .LC-logo p {
     margin-bottom: 15px;
-  }
-
-  .events-image-cont {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-left: 14%;
-    gap: 0%;
   }
 
   .events-image-cont {
