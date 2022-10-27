@@ -53,3 +53,16 @@ artists.forEach((e) => {
     `;
   featureArtist.append(div);
 });
+
+const menuList = document.querySelector('.menu-list');
+const menuIcon = document.querySelector('#hamburger');
+
+menuIcon.addEventListener('click', () => {
+  menuList.classList.toggle('open-menu-list');
+});
+
+document.querySelectorAll('.close').forEach((e) =>
+  e.addEventListener('click', () => {
+    menuList.classList.remove('open-menu-list');
+  })
+);
