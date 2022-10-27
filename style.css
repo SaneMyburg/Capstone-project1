@@ -217,7 +217,7 @@ body {
   }
 
   .menu-list img {
-    position: fixed;
+    position: absolute;
     right: 40px;
     top: 30px;
     cursor: pointer;
