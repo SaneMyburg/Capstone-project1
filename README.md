@@ -27,7 +27,7 @@ You can clone the repo or just follow the live link.
 
 ## Contibutions
 
-The design of this, was insipired by Cindy Shin the original designer.
+The design of this, was insipired by Cindy Shin the original designer[https://www.behance.net/adagio07].
 All contibutions, issues and features are welcome
 
 ## License
